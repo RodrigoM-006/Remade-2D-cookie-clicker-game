@@ -48,3 +48,19 @@ button:disabled {
 .upgrade-button:hover {
   background-color: #f0f0f0;
 }
+
+#click-button {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+  border-radius: 50%; /* Make the button circular */
+  border: 2px solid #8B4513; /* Add a border */
+  padding: 0; /* Remove padding to fit the image properly */
+  background-color: transparent; /* Make the background transparent */
+  cursor: pointer;
+}
+
+#click-button img {
+  width: 100%; /* Make the image fill the button */
+  height: 100%; /* Make the image fill the button */
+  border-radius: 50%; /* Ensure the image is circular */
+}
