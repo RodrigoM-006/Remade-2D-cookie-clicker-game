@@ -4,10 +4,19 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the body takes up the full viewport height */
 }
 
 .game-container {
-  margin-top: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  max-width: 600px; /* Limit the width of the game container */
+  width: 100%; /* Ensure it takes up the full width within the max-width */
 }
 
 button {
